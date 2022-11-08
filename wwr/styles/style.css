@@ -23,6 +23,7 @@ header{
 .home-grid {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
+    
 }
 
 .home-title{
@@ -284,3 +285,96 @@ footer .social img{
     }
 }
             
+
+/* Page 2:  Rivers */
+.home-grid2 {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    
+}
+
+
+.text1 {
+    display: grid;
+    grid-column: 1/11;
+    grid-row: 1/2;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+
+.desolation-river, .grand-canyon-river, .salmon-river{
+    width: 100%;
+    border: 10px solid rgb(152, 192, 201);
+    transition: transform 0.5s;
+    box-shadow: 10px 10px 10px -1px gray;
+    width: 100%;
+}
+.desolation-river:hover, .grand-canyon-river:hover, .salmon-river:hover{
+    opacity: .9;
+    transform: scale(1.01);
+}
+.text2 {
+    display:grid;
+    grid-column: 1/11;
+    grid-row: 2/3;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.text3 {
+    display: grid;
+    grid-column: 1/11;
+    grid-row: 3/4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.paragraph1, .paragraph2, .paragraph3 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+.tittle1, .tittle2, .tittle3 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.river-banner {
+    display:grid;
+    grid-row: 4/5;
+    grid-column: 1/11;
+    width: 100%;
+    z-index: -1;
+    
+}
+
+.msg2 {
+    
+    color: white;
+    line-height: 2.5em;
+    width: 100%;
+    grid-column: 1/11;
+    grid-row: 4/5;
+    z-index: 1;
+    font-size:44px;
+    text-align: center;
+    margin-top: 250px;    
+}
+
+.contact-us:hover {
+    background-color: black;
+    color: white;
+}
+.join2 {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.join2:hover {
+    background-color: black;
+    color: white;
+}
