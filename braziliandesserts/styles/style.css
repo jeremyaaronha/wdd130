@@ -224,7 +224,7 @@ footer a {
     text-decoration: none;
 }
 footer a:hover{
-    color: rrgb(54, 101, 254);
+    color: rgb(54, 101, 254);
 }
 footer p {
     font-size: 1.2em;
