@@ -266,3 +266,90 @@ footer .social img{
         width: 80%;
     }
 }
+
+/* Page 2 brazzilian desserts*/
+#hero-msg2{
+    margin-top: 0;
+    text-align: center;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 250px;
+}
+.ordernow{
+    color: white;
+    text-align: center;
+    background-color: rgb(129, 194, 129);;
+    color: white;
+    text-decoration: none;
+    font-size: 28px;
+    padding: 20px 30px;
+    border-radius: 5px;
+}
+
+.button-box {
+    text-align: center;
+}
+.ordernow:hover{
+    background-color: black;
+    color: white;
+    
+}
+.home-title2{
+    font-size: 70px;
+
+}
+.dessert-img{
+    width: 100%;
+    border: 5px solid white;
+    transition: transform 0.5s;
+    box-shadow: 10px 10px 10px -1px gray;
+    
+}
+.dessert-img:hover{
+    opacity: .9;
+    transform: scale(1.05);
+}
+.desserts-photos{
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    font-size: 20px;
+}
+.pave {
+    grid-column: 1/2 ;
+    grid-row: 1/2;
+    
+    
+}
+.brigadeiros{
+    grid-column: 3/4;
+    grid-row: 1/2;
+    
+}
+
+.beijinhos{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    
+}
+
+.quindim{
+    grid-column: 3/4;
+    grid-row: 2/3;
+   
+}
+
+.mousse{
+    grid-column: 1/2;
+    grid-row: 3/4;
+    
+}
+
+.pe-moleque{
+    grid-column: 3/4;
+    grid-row: 3/4;
+    
+}
+
